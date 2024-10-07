@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Github User Finder</title>
+</head>
+<body>
+    <div class="main">
+    <div id="cantaner">
+        <h1>Github User Finder</h1>
+
+    <div id="result-container" >
+        <form id="form">
+            <input type="text" id="user-input" placeholder="Enter Github Name">
+            <button type="submit"><img src="icons-search.png" alt="" id="icon"></button>
+        </form>
+     <div id="data">
+        <div id="image">
+            <img src="pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg" alt="" >
+        </div>
+        <div id="username">
+            <h2>User Name</h2>
+            <p></p>
+            <a id="a">Profile</a>
+        </div>
+    </div>
+    <div id="bio">
+        <p></p>
+    </div>
+        <div id="result">
+            <div id="repo">
+                <h3>Repos</h3>
+                <p></p>
+            </div>
+            <div id="follower">
+                <h3>Follower</h3>
+                <p></p>
+            </div>
+            <div id="following">
+                <h3>Following</h3>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
